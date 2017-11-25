@@ -1657,6 +1657,11 @@ footer#mainFooter p {
 .clients .item:last-child {
     border-right: none
 }
+@media (min-width: 1440px) {
+	.mainHeader {
+		background-position: 30% 0%;
+	}
+}
 @media (max-width: 768px) {
     .about,
     .awards,
@@ -1678,8 +1683,14 @@ footer#mainFooter p {
     .lead-uniqu {
         font-size: 16px!important
     }
+	.mainHeader {
+		background-position: 66% 0%;
+	}
 }
 @media (max-width: 480px) {
+	.mainHeader {
+		background-position: 65% 0%;
+	}
     section h2 {
         font-size: 40px!important
     }
