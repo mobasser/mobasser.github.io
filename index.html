@@ -522,6 +522,13 @@
                               <textarea name="message" id="message" placeholder="How can I help you?" required></textarea>
                            </label>
                         </div>
+						<div class="col-sm-12">
+                           <label for="message">
+                              <span>Camera</span>
+                              <input type="file" accept="image/*" capture="camera">
+                           </label>
+                        </div>
+						
                         <div class="col-sm-4 col-sm-offset-4">
                            <button type="submit">Send Now <i class="fa fa-send"></i></button>
                         </div>
@@ -547,7 +554,10 @@
             <!-- Footer -->
             <footer id="mainFooter">
                <div class="container text-center">
-                  <p>Copyrights &copy; 2021.</p>
+                  <p>Copyrights &copy; 
+				  <script>
+					document.write(new Date().getFullYear())
+                  </script>.</p>
                </div>
             </footer><!-- end Footer -->
 
